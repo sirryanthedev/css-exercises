@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+.c1, .c2 {
+    background-color: rgba(219, 20, 20, 0.427);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.c2 {
+    font-size: 24px;
+}
+
+.c3 {
+    background-color:rgb(134, 237, 134);
+    font-size: 24px;
+    font-weight: bold;
+}
+#i1 {
+    color: rgb(0, 0, 255);
+    font-size: 32px;
+}
