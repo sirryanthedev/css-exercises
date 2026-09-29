@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -45,4 +48,27 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.left {
+  margin-left: 8px;
+}
+
+.right {
+  margin-right: 8px;
 }
